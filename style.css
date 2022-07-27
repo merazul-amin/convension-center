@@ -1,0 +1,55 @@
+.left-badge {
+    left: 87%;
+}
+
+.toast-class {
+    width: 240px;
+    right: 0;
+    top: 15%;
+}
+
+.client {
+    width: 25%;
+}
+
+.questions-left {
+    width: 45%;
+}
+
+.questions-right {
+    width: 45%;
+}
+
+@media screen and (max-width:992px) {
+    .client {
+        width: 90%;
+        margin: 20px auto;
+
+    }
+
+    .questions-left {
+        width: 90%;
+        margin: auto;
+    }
+
+    .questions-right {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .album-text {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .client {
+        width: 90%;
+    }
+
+}
